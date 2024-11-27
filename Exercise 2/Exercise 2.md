@@ -16,7 +16,7 @@ Write your answers as Markdowns in the Jupiter Notebook.
 
 ## Part 2
 
-For part 2 you will use sequences of CTCF gene. Specifically, you will use the DNA sequence of CTCF gene for [homo sapiens](https://github.com/Sophie-Mat/Bioinformatics/blob/main/Exercise%202/CTCF_DNA_HOMO.fna) and for [mus musculus](https://github.com/Sophie-Mat/Bioinformatics/blob/main/Exercise%202/CTCF__DNA_MUS.fna) and the protein sequence (amino acid) of CTCF gene for [homo sapiens](https://github.com/Sophie-Mat/Bioinformatics/blob/main/Exercise%202/CTCF_AA_HOMO.faa) and for [mus musculus](https://github.com/Sophie-Mat/Bioinformatics/blob/main/Exercise%202/CTCF_AA_MUS.faa). 
+For part 2 you will use sequences of CTCF gene. Specifically, you will use the DNA sequence of CTCF gene for [homo sapiens](CTCF_DNA_HOMO.fna) and for [mus musculus](CTCF__DNA_MUS.fna) and the protein sequence (amino acid) of CTCF gene for [homo sapiens](CTCF_AA_HOMO.faa) and for [mus musculus](CTCF_AA_MUS.faa). 
 1. Use the first 100 nucleotides from the DNA sequence of CTCF gene for human and mouse to create a Dot Matrix with k-mer k=6.
 2. Use the protein sequence of CTCF gene for human and mouse to create a Dot Matrix with k-mer k=3.
 
@@ -26,6 +26,6 @@ For part 2 you will use sequences of CTCF gene. Specifically, you will use the D
 
 ## Part 4
 
-1. Using the datasets from part 2, implement your own Smith-Waterman Algorithm for global alignment of the Amino Acid sequences that will score the identical and substitutions based on the [BLOSUM62 scoring matrix](https://github.com/Sophie-Mat/Bioinformatics/blob/main/Exercise%202/BLOSUM62.txt) (tab delimeted file). For gap penalty use -10. Print the final scoring matrix and find the position of the highest value.
+1. Using the datasets from part 2, implement your own Smith-Waterman Algorithm for global alignment of the Amino Acid sequences that will score the identical and substitutions based on the [BLOSUM62 scoring matrix](BLOSUM62.txt) (tab delimited file). For gap penalty use -10. Print the final scoring matrix and find the position of the highest value.
 
 > _Use only the numpy and pandas libraries._
