@@ -27,3 +27,5 @@ For part 2 you will use sequences of CTCF gene. Specifically, you will use the D
 ## Part 4
 
 1. Using the datasets from part 2, implement your own Smith-Waterman Algorithm for global alignment of the Amino Acid sequences that will score the identical and substitutions based on the [BLOSUM62 scoring matrix](https://github.com/Sophie-Mat/Bioinformatics/blob/main/Exercise%202/BLOSUM62.txt) (tab delimeted file). For gap penalty use -10. Print the final scoring matrix and find the position of the highest value.
+
+> _Use only the numpy and pandas libraries._
