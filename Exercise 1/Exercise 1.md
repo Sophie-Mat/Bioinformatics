@@ -12,7 +12,7 @@ Copy the number and store it as a string (or list of digits).
 
 ## Part 2
 
- One of the methods that we use to identify similarities between proteins is to compare the 3D structures and measure the Root Mean Square Distance (RMSD). Given the wild-type structure of [TNF](https://github.com/Sophie-Mat/Bioinformatics-old-/blob/main/Assignment%201/TNF_coordinate_chain1.pdb) and three variants ([varA](https://github.com/Sophie-Mat/Bioinformatics-old-/blob/main/Assignment%201/TNF_a1_coordinate_chain1.pdb), [varB](https://github.com/Sophie-Mat/Bioinformatics-old-/blob/main/Assignment%201/TNF_b1_coordinate_chain1.pdb), [varC](https://github.com/Sophie-Mat/Bioinformatics-old-/blob/main/Assignment%201/TNF_c1_coordinate_chain1.pdb)) find the RMSD between the variants and the wild-type. 
+ One of the methods that we use to identify similarities between proteins is to compare the 3D structures and measure the Root Mean Square Distance (RMSD). Given the wild-type structure of [TNF](TNF_coordinate_chain1.pdb) and three variants ([varA](TNF_a1_coordinate_chain1.pdb), [varB](TNF_b1_coordinate_chain1.pdb), [varC](TNF_c1_coordinate_chain1.pdb)) find the RMSD between the variants and the wild-type. 
 
 The format of the files is as follows: 
 
